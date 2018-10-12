@@ -19,6 +19,9 @@
 		3DEFFE3D216FDE4900875233 /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE3C216FDE4900875233 /* Comentario.swift */; };
 		3DEFFE3F216FDEB800875233 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE3E216FDEB800875233 /* Datos.swift */; };
 		3DEFFE41216FE9E700875233 /* DetalleProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE40216FE9E700875233 /* DetalleProductoController.swift */; };
+		3DEFFE432170813B00875233 /* ListaComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE422170813B00875233 /* ListaComentarioController.swift */; };
+		3DEFFE46217082E000875233 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE45217082E000875233 /* CeldaComentario.swift */; };
+		3DEFFE482170A01700875233 /* AgregarComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEFFE472170A01700875233 /* AgregarComentarioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		3DEFFE3C216FDE4900875233 /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
 		3DEFFE3E216FDEB800875233 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		3DEFFE40216FE9E700875233 /* DetalleProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoController.swift; sourceTree = "<group>"; };
+		3DEFFE422170813B00875233 /* ListaComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComentarioController.swift; sourceTree = "<group>"; };
+		3DEFFE45217082E000875233 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
+		3DEFFE472170A01700875233 /* AgregarComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarComentarioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,9 @@
 				3DEFFE3A216FDD2C00875233 /* CeldaProducto.swift */,
 				3D3CC1F0216E4AFD0027A9F2 /* ViewController.swift */,
 				3DEFFE40216FE9E700875233 /* DetalleProductoController.swift */,
+				3DEFFE422170813B00875233 /* ListaComentarioController.swift */,
+				3DEFFE45217082E000875233 /* CeldaComentario.swift */,
+				3DEFFE472170A01700875233 /* AgregarComentarioController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -311,10 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEFFE482170A01700875233 /* AgregarComentarioController.swift in Sources */,
 				3DEFFE41216FE9E700875233 /* DetalleProductoController.swift in Sources */,
 				3D3CC1F1216E4AFD0027A9F2 /* ViewController.swift in Sources */,
 				3D3CC1EF216E4AFD0027A9F2 /* AppDelegate.swift in Sources */,
+				3DEFFE46217082E000875233 /* CeldaComentario.swift in Sources */,
 				3D3CC223216E5B9F0027A9F2 /* Productos.swift in Sources */,
+				3DEFFE432170813B00875233 /* ListaComentarioController.swift in Sources */,
 				3DEFFE3B216FDD2C00875233 /* CeldaProducto.swift in Sources */,
 				3DEFFE3D216FDE4900875233 /* Comentario.swift in Sources */,
 				3DEFFE3F216FDEB800875233 /* Datos.swift in Sources */,
